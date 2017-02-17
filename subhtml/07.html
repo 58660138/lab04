@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="JavaScript">
+    <meta name="author" content="Warintorn yangkijakarn">
+
+    <title>JS07</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/lab04.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/subhtml/01.html">js01</a>
+                </li>
+                <li>
+                    <a href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/subhtml/02.html">js02</a>
+                </li>
+                <li>
+                    <a href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/subhtml/03.html">js03</a>
+                </li>
+                <li>
+                    <a href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/subhtml/04.html">js04</a>
+                </li>
+                <li>
+                    <a href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/subhtml/05.html">js05</a>
+                </li>
+                <li>
+                    <a href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/subhtml/06.html">js06</a>
+                </li>
+                <li>
+                    <a href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/subhtml/07.html">js07</a>
+                </li>
+                <li>
+                    <a href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/subhtml/08.html">js08</a>
+                </li>
+                <li>
+                    <a href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/subhtml/09.html">js09</a>
+                </li>
+                <li>
+                    <a href="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/subhtml/10.html">js10</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>JS07</h1>
+                        <p><img src="http://angsila.cs.buu.ac.th/~58660138/887371/lab04/img/07.png"></p>
+                        <br>
+                        <p>5: สร้างฟังก์ชั่น windowHeight()</p>
+                         <p>6: ใช้คำสั่ง if else เพื่อตรวจสอบดูว่า ผู้ใช้ใช้ browser IE ในการเปิดอยู่หรือไม่</p>
+                          <p>7: หากเงื่อนไขในบรรัดที่ 7 เป็นจริง ให้ return ค่าความสูงหน้าจอกลับมา</p>
+                          <p>8:ในกรณีที่ไม่เข้าเงื่อนไข่ ในบรรทัดที่ 6 .จึงมาทำงานในบรรทัดนี้เพื่อตรวจสอบว่า ใช้ browser NS หรือไม่</p>
+                          <P>9: หากเงื่อนไขจากบรรทัดที่ 8 เป็นจริง ให้ return ค่าความสูงของหน้าจอออกมา</P>
+                          <P>10-11: และหากไม่เข้าในกรณีไหนทั้งทั้งสิ้น return ค่า 0 </P>
+                          <p>15: ตรวจสอบว่าความสูงหน้าจอมากกว่าหรือเท่ากับ 300 หรือไม่</p>
+                          <p>16:หากใช่ ให้เข้าไปยังลิงค์  http://angsila.cs.buu.ac.th/~58660138/887371/lab02/lab02.html </p>
+                          <p>17-18: หากไม่ใช่ เชื่อต่อไปยังลิงค์ http://angsila.cs.buu.ac.th/~58660138/887371/lab02/lab02.html"</p>
+         
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
